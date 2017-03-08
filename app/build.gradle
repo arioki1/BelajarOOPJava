@@ -1,0 +1,5 @@
+apply plugin: 'application'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
