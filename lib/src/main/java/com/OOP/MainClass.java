@@ -1,8 +1,11 @@
 package com.OOP;
 
+import com.OOP.Pewarisan.Pewarisan;
+
 public class MainClass {
     public static void main(String[] args) {
-        System.out.print("OK");
+        Pewarisan pewarisan = new Pewarisan();
+        pewarisan.hitungSegitiga();
     }
 }
 
