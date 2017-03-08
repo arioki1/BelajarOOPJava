@@ -10,4 +10,10 @@ final class Hitung {
         luas = (0.5 * a * t);
         return luas;
     }
+
+    public double persegi(int a) {
+        double luas;
+        luas = (a * a * a);
+        return luas;
+    }
 }

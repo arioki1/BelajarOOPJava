@@ -18,4 +18,14 @@ public class Pewarisan {
         t = sc.nextInt();
         System.out.print("Luas Segitiga Adalah : "+hitung.segitiga(a,t));
     }
+    public void hitungPersegi(){
+        int t;
+
+        Hitung hitung = new Hitung();
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Masukan Tinggi   :");
+        t = sc.nextInt();
+        System.out.print("Luas Persegi Adalah : "+hitung.persegi(t));
+    }
 }
